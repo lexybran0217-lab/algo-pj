@@ -1,0 +1,24 @@
+{
+  "version": "0.1.0",
+  "verified_at": "2026-10-26T23:16:23.872220+08:00",
+  "python": "3.13.15",
+  "tests_passed": 13,
+  "site_packages_disabled": true,
+  "copied_package_tests_passed": 13,
+  "examples_independently_checked": true,
+  "generator_seed_bytes_verified": true,
+  "documentation_links_checked": 13,
+  "source_sha256": {
+    "check.py": "e517371010635e3eaa8321a552468e395e639d6cf42709e1cc9870562d489d5a",
+    "cli.py": "0e62f13d498e99da89828aedece1f958b0117b89b3f787e7e73b1057956b5c13",
+    "generator.py": "9d260cbbb38913d3deac823ff4ba508905e7dcaa600520295e65314bacc31098",
+    "instance.py": "17fe04e8ae5140765fc250ec73282a18e1aacc04562f0355b1cdf57bc6ac5e7f",
+    "solver.py": "c01e3e99fa7b15bf57092f3d88b2caff66eb395cd7cd381dbe593d583ffec3fb",
+    "__init__.py": "20c8e430ededc2143396e553a3c67aac4ec483ef54efdfcb18a31cb162ca0646",
+    "__main__.py": "e44c0ad3b6bdbb078274655789f343f8fd56e67868e79e8481874e96c4ae8e93",
+    "tests/test_v01.py": "1d71ca672bb833efbcab570bd924ef277208661f5a615130ac663a0308a0422e",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "review": "Static independent review: no Critical/Important findings; requested example provenance added. Reviewer could not run Python in its sandbox.",
+  "scope": "Discussion baseline and small tests; no official size/time acceptance claimed"
+}

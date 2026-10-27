@@ -1,0 +1,34 @@
+{
+  "version": "0.1.0",
+  "python": "3.13.15",
+  "interpreter": "D:\\MITB\\Sem1\\Algo\\Algo_GP\\algo_cvrp_assignment\\contribution\\.venv\\Scripts\\python.exe",
+  "examples": [
+    {
+      "input": "v0_1/examples/sample.txt",
+      "solution": "v0_1/examples/sample.sol",
+      "input_sha256": "f12904f8b96fc2547b826c5b66a11938ee72f897c9ddc9f94372b13a9648f8ad",
+      "solution_sha256": "c3c544f47534ed650f8d81c208a1297b1ed9f4020726c68fff118872162c598f",
+      "solver_seed": 0,
+      "time_limit_s": 2,
+      "verified_cost": 21.8,
+      "independently_checked": true,
+      "source": "grp_proj_spec.pdf example",
+      "solve_command": "python -m v0_1 solve v0_1/examples/sample.txt --time 2 --seed 0 --out v0_1/examples/sample.sol",
+      "check_command": "python -m v0_1 check v0_1/examples/sample.txt v0_1/examples/sample.sol"
+    },
+    {
+      "input": "v0_1/examples/mixed_20.txt",
+      "solution": "v0_1/examples/mixed_20.sol",
+      "input_sha256": "3f86e0c2ad8977d0f8a5f05dbeea09c12d66203d3b1ec614c13ec5418ac49952",
+      "solution_sha256": "b423f0d0234c8c640efddb6c3c7e4afbf869f62cf5a96fd3c81a0219f8fc6c6a",
+      "solver_seed": 0,
+      "time_limit_s": 2,
+      "verified_cost": 473.1,
+      "independently_checked": true,
+      "generator_seed": 7,
+      "generate_command": "python -m v0_1 generate --n 20 --seed 7 --layout mixed --out v0_1/examples/mixed_20.txt",
+      "solve_command": "python -m v0_1 solve v0_1/examples/mixed_20.txt --time 2 --seed 0 --out v0_1/examples/mixed_20.sol",
+      "check_command": "python -m v0_1 check v0_1/examples/mixed_20.txt v0_1/examples/mixed_20.sol"
+    }
+  ]
+}

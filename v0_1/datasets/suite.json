@@ -1,0 +1,52 @@
+{
+  "description": "Proposed team acceptance cases; sizes are not official node thresholds.",
+  "python": "3.13.15",
+  "generator_sha256": "9d260cbbb38913d3deac823ff4ba508905e7dcaa600520295e65314bacc31098",
+  "cases": [
+    {
+      "name": "small_uniform_100",
+      "input": "small_uniform_100.txt",
+      "limit_s": 30,
+      "customers": 100,
+      "nodes": 101,
+      "capacity": 100,
+      "vehicles": 17,
+      "generator_seed": 101,
+      "layout": "uniform",
+      "slack": 1,
+      "input_sha256": "2069c163f018dd792f1387b8974e46d216c98e82bd213f15ce07046aa4749e53",
+      "bytes": 48911,
+      "generate_command": "python -m v0_1 generate --n 100 --seed 101 --layout uniform --capacity 100 --slack 1 --out v0_1\\datasets\\small_uniform_100.txt"
+    },
+    {
+      "name": "medium_cluster_300",
+      "input": "medium_cluster_300.txt",
+      "limit_s": 60,
+      "customers": 300,
+      "nodes": 301,
+      "capacity": 100,
+      "vehicles": 48,
+      "generator_seed": 201,
+      "layout": "cluster",
+      "slack": 1,
+      "input_sha256": "905e5b75363d52c7d6dbd21ed80e1d454ece5f6dd61ab4f6bd3f0d6e42d16508",
+      "bytes": 424919,
+      "generate_command": "python -m v0_1 generate --n 300 --seed 201 --layout cluster --capacity 100 --slack 1 --out v0_1\\datasets\\medium_cluster_300.txt"
+    },
+    {
+      "name": "large_mixed_1000",
+      "input": "large_mixed_1000.txt",
+      "limit_s": 180,
+      "customers": 1000,
+      "nodes": 1001,
+      "capacity": 100,
+      "vehicles": 154,
+      "generator_seed": 301,
+      "layout": "mixed",
+      "slack": 0,
+      "input_sha256": "56532107c34787e6a1e720180679f93bcfae7480f12edc554769a1dbe318cfa6",
+      "bytes": 4784086,
+      "generate_command": "python -m v0_1 generate --n 1000 --seed 301 --layout mixed --capacity 100 --slack 0 --out v0_1\\datasets\\large_mixed_1000.txt"
+    }
+  ]
+}
